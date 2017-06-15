@@ -1,3 +1,3 @@
 <?php
- echo "test by saha";
+ echo "test by saha ok";
 ?>
