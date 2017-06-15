@@ -1,4 +1,11 @@
 <?
+$httpClient = new \LINE\LINEBot\HTTPClient\CurlHTTPClient('t4dYu+OXU410/rDWhExXMJg90YZE8xueP0VWCCfofcQm+xfTfYOw17UNNMLM1jtcaE7dkt5HnRNBwtpyNtJSz21QMyELyn28U8ctgdg/BOJRBTsc8AxMlhDoi32BZ8uVZ/aFmis97dfE8KKKi5ztlQdB04t89/1O/w1cDnyilFU=');
+$bot = new \LINE\LINEBot($httpClient, ['channelSecret' => '84ef88f48fd35449892287c4569c6a4f']);
+
+$textMessageBuilder = new \LINE\LINEBot\MessageBuilder\TextMessageBuilder('hello');
+$response = $bot->pushMessage('<to>', $textMessageBuilder);
+
+echo $response->getHTTPStatus() . ' ' . $response->getRawBody();
 /*
 //$strAccessToken = "04xEhe/EUGysyc4sRXFc4eISQ9nySGxyn2cHTh3uY+F6btffebfZdJ2EC2UOLoC6EqHN/XZQv3fLzyDc0MA7g959PKP+h5MTFOEvbb4jUvqIbvm/5/nV7zap542mHBXgR2htQnnOk8k7XUuNSp2OOVyJkyQKxupqlZ5I0qCNTE8=";
 $strAccessToken = "t4dYu+OXU410/rDWhExXMJg90YZE8xueP0VWCCfofcQm+xfTfYOw17UNNMLM1jtcaE7dkt5HnRNBwtpyNtJSz21QMyELyn28U8ctgdg/BOJRBTsc8AxMlhDoi32BZ8uVZ/aFmis97dfE8KKKi5ztlQdB04t89/1O/w1cDnyilFU=";
