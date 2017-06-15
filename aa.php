@@ -1,5 +1,5 @@
 <?
-$strAccessToken = "";
+$strAccessToken = "t4dYu+OXU410/rDWhExXMJg90YZE8xueP0VWCCfofcQm+xfTfYOw17UNNMLM1jtcaE7dkt5HnRNBwtpyNtJSz21QMyELyn28U8ctgdg/BOJRBTsc8AxMlhDoi32BZ8uVZ/aFmis97dfE8KKKi5ztlQdB04t89/1O/w1cDnyilFU=";
 
 $strUrl = "https://api.line.me/v2/bot/message/push";
 $arrHeader = array();
