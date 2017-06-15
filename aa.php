@@ -2,5 +2,6 @@
 $strAccessToken = "";
 
 $strUrl = "https://api.line.me/v2/bot/message/push";
-   echo "444";
+$arrHeader = array();
+   echo "555";
 ?>	  
