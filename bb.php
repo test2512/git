@@ -1,3 +1,3 @@
-<?
- echo "test by saha ok";
+<?php
+   echo "test by saha ok";
 ?>
