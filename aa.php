@@ -1,3 +1,3 @@
 <?
-	  echo "test by saha";
+	  echo "test by sahapanich";
 ?>	  
